@@ -7,7 +7,7 @@ Repositório para scripts de mapas para avaliações oceanográficas
 Clique em Code e Download ZIP para baixar arquivo zipado 
 
 ```sh
-$ git clone https://github.com/tt-mog/analise-oceanrose.git
+$ git clone https://github.com/tt-mog/analise-oceanmap.git
 ```
 ### Cria o Ambiente Virtual do python
 ```sh
@@ -29,10 +29,10 @@ $ conda install -c conda-forge cartopy
 Executando script
 $ ipython 
 
-Para gerar mapas do modelo MERCATOR deve-se executar o seguinte comando
+Para gerar mapas MERCATOR:
 $ run plot_map_mercator.py 0 0 # Onde o primeiro argumento é a profundidade a ser analisada e o segundo o tipo de quiver (exemplos abaixo)
 
-Para gerar mapas do WOA18 deve-se executar o seguinte comando
+Para gerar mapas WOA18:
 $ run plot_map_WOA18 0 # Onde o primeiro argumento é a profundidade a ser analisada
 
 ```
