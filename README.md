@@ -19,7 +19,7 @@ $ virtualenv env
 $ source env/bin/activate  # para utilizar o python local (ambiente virtual)
 $ pip install -r requirements.txt # Instala os pacotes necessários
 #Instalando dependencias 
-$  conda install -c conda-forge xarray dask netCDF4 bottleneck 
+$ conda install -c conda-forge xarray dask netCDF4 bottleneck 
 $ conda install -c conda-forge cartopy
 
 ```
